@@ -5,6 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:online_course/home_page_design.dart';
+import 'package:online_course/screens/login.dart';
 
 import 'home_page.dart';
 
@@ -19,8 +20,8 @@ class Course extends StatelessWidget {
       builder: DevicePreview.appBuilder,
       // theme: ThemeData.light(),
       //darkTheme: ThemeData.dark(),
-      // home: Homescreen(),
-      home: Homepage(),
+      home: Loginscreen(),
+      //home: Homepage(),
     );
   }
 }
